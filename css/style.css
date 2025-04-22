@@ -9,11 +9,6 @@ $breakpoint arguement choices:
 - tab-port
 - tab-land
 - big-desktop
-
-Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
-
-WHY DOES NESTING CSS CLASSES WORK HERE??????
-
 */
 
 * {
@@ -52,7 +47,6 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif; }
@@ -102,7 +96,6 @@ textarea {
   display: block;
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 3.5rem;
